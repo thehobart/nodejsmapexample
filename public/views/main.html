@@ -10,7 +10,7 @@
 			<h4><i class="icon-user"></i> User List</h4>
 			<ul>
 			  <li ng-repeat="item in myMarkers | orderBy:'id'">
-			    <button class="btn btn-primary" ng-click="myMap.panTo(item.marker.getPosition())"><i class="icon-search icon-white"></i> {{item.id}}</button>
+			    <button class="btn btn-primary" ng-click="myMap.panTo(item.marker.getPosition())"><i class="icon-search icon-white"></i>{{item.id}}</button>
 			  </li>
 			</ul>	
 		</div>

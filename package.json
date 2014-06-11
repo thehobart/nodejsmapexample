@@ -1,13 +1,17 @@
 {
-    "name": "nodejsmapexample", 
-    "version": "0.0.2", 
-    "private": true,
-    "dependencies": {
-      "express": "2.5.x",
-      "socket.io": "0.9.x"
+  "name": "nodejsmapexample", 
+  "version": "0.0.2", 
+  "private": true,
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*"
   },
   "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
-  }
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "app.js"
 }
